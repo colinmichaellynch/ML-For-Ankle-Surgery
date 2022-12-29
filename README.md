@@ -45,7 +45,7 @@ Hello there! My name is Colin Lynch, and I am an animal behavior Ph.D. candidate
   - In vs outpatient, age, race, ASA Classification 
   
  * Older, non-white outpatients with more severe injuries are the individuals who are most likely to experience adverse events
-  - Patients within these categories require more care than others. They should be treated as inpatients when possible, more advice should be given to them, and potentially racist practices need to be addressed within hospitals. For instance, clinical studies tend to preferentially focus on white demographics, so patient outcomes for minorities are not as well studied. 
+  - Patients within these categories require more care than others. They should be treated as inpatients when possible, more advice should be given to them on how to treat their surgical wounds, and potentially racist practices need to be addressed within hospitals. For instance, clinical studies tend to preferentially focus on white demographics, so patient outcomes for minorities are not as well studied. 
 
 ## Contact Information
 
