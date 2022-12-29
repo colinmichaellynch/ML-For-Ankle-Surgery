@@ -37,7 +37,7 @@ Hello there! My name is Colin Lynch, and I am an animal behavior Ph.D. candidate
 
 ![](/Images/performanceTable.png)
 
-* Random forest performes the best, having the highest ROC AUC
+* Random forest performes the best, having the highest ROC AUC. It also outperforms the logistic regression for most metrics. 
 
 ![](/Images/rocauc.png)
 
