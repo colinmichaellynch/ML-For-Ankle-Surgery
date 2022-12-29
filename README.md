@@ -47,3 +47,14 @@ Fig 1
  * Older, non-white outpatients with more severe injuries are the individuals who are most likely to experience adverse events
   - Patients within these categories require more care than others. They should be treated as inpatients when possible, more advice should be given to them, and potentially racist practices need to be addressed within hospitals. For instance, clinical studies tend to preferentially focus on white demographics, so patient outcomes for minorities are not as well studied. 
 
+## Contact Information
+
+| Contact Method | URL |
+| --- | --- |
+| Email | cmlynch2@asu.edu |
+| LinkedIn | https://www.linkedin.com/in/colinmichaellynch/ |
+| Fiverr | https://www.fiverr.com/colinlynch |
+
+## Acknowledgements
+
+I would like to thank my collaborator Puneet Gupta for collecting this data and for developing the project ida. 
