@@ -3,9 +3,9 @@ Finding comorbidities that can result in adverse reactions to ankle surgery
 
 ## Table of Contents
 
-* Data compiled from National Surgical Quality Improvement Program (NSQIP) registry 
+* [Data compiled from National Surgical Quality Improvement Program (NSQIP) registry](https://github.com/colinmichaellynch/ML-For-Ankle-Surgery/blob/main/CombinedDatasetAnkle.csv) 
 
-* Machine learning code to predict patient outcomes
+* [Machine learning code to predict patient outcomes](https://github.com/colinmichaellynch/ML-For-Ankle-Surgery/blob/main/mlModlesAnkle2.py)
 
 ## Background
 
@@ -35,11 +35,11 @@ Hello there! My name is Colin Lynch, and I am an animal behavior Ph.D. candidate
   
 * Performance metrics for each model. Parentheses give 95% confidence intervals. 
 
-Table
+![](/Images/performanceTable.png)
 
 * Random forest performes the best, having the highest ROC AUC
 
-Fig 1 
+![](/Images/rocauc.png)
 
 * We also found the 5 most important variables for the random forest model and the logistic regression. The rank order of each variable differs between the logistic regression and the random forest, however, they both have the same top 4 variables, indicating that these are the most important predictors of an adverse event.
   - In vs outpatient, age, race, ASA Classification 
