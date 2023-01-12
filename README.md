@@ -9,7 +9,7 @@ Finding comorbidities that can result in adverse reactions to ankle surgery
 
 ## Background
 
-Hello there! My name is Colin Lynch, and I am an animal behavior Ph.D. candidate at Arizona State University. I primarily leverage industrial engineering techniques to design optimal experiments for the study of emergence in complex adaptive systems, and I am looking to use these techniques to aquire a data science internship in R&D. I am specifically interested in reducing research costs by developing methods that minimize sample size while still having a rich enough dataset to perform hypothesis tests and predictive analytics. Here, I use supervised machine learning to predict whether a patient who has undergone ankle surgery will experience an adverse event within 30 days of the surgery. The goal of the algorithm is to determine which patient features are the most associated with adverse events so that these features can be controlled (if possible). For instance, if a patient underwent a blood transfusion 72 hours before a surgery, and this fact is closely tied with adverse events, then surgeries could be postponed for the sake of patient health. 
+Surgery can often result in seemingly random complications. I use supervised machine learning to predict whether a patient who has undergone ankle surgery will experience an adverse event within 30 days of the surgery. The goal of the algorithm is to determine which patient features are the most associated with adverse events so that these features can be controlled (if possible). For instance, if a patient underwent a blood transfusion 72 hours before a surgery, and this fact is closely tied with adverse events, then surgeries could be postponed for the sake of patient health. 
 
 ## Methods
 
@@ -35,11 +35,15 @@ Hello there! My name is Colin Lynch, and I am an animal behavior Ph.D. candidate
   
 * Performance metrics for each model. Parentheses give 95% confidence intervals. 
 
-![](/Images/performanceTable.png)
+<p align="center">
+  <img src=/Images/performanceTable.png>
+</p>
 
 * Random forest performes the best, having the highest ROC AUC. It also outperforms the logistic regression for most metrics. 
 
-![](/Images/rocauc.png)
+<p align="center">
+  <img src=/Images/rocauc.png>
+</p>
 
 * We also found the 5 most important variables for the random forest model and the logistic regression. The rank order of each variable differs between the logistic regression and the random forest, however, they both have the same top 4 variables, indicating that these are the most important predictors of an adverse event.
   - In vs outpatient, age, race, ASA Classification 
@@ -47,14 +51,6 @@ Hello there! My name is Colin Lynch, and I am an animal behavior Ph.D. candidate
  * Older, non-white outpatients with more severe injuries are the individuals who are most likely to experience adverse events
   - Patients within these categories require more care than others. They should be treated as inpatients when possible, more advice should be given to them on how to treat their surgical wounds, and potentially racist practices need to be addressed within hospitals. For instance, clinical studies tend to preferentially focus on white demographics, so patient outcomes for minorities are not as well studied. 
 
-## Contact Information
-
-| Contact Method | URL |
-| --- | --- |
-| Email | cmlynch2@asu.edu |
-| LinkedIn | https://www.linkedin.com/in/colinmichaellynch/ |
-| Fiverr | https://www.fiverr.com/colinlynch |
-
 ## Acknowledgements
 
-I would like to thank my collaborator Puneet Gupta for collecting this data and for developing the project ida. 
+I would like to thank my collaborator Puneet Gupta for collecting this data and for developing the project idea. 
